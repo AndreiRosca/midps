@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+#include <stdio.h>
+=======
+#include <stdlib.h>
+
+>>>>>>> showchase
+int main() {
+	return 0;
+}
+double foo() { return 0.0; }

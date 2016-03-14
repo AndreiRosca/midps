@@ -1,0 +1,113 @@
+object Form2: TForm2
+  Left = 439
+  Top = 118
+  BorderStyle = bsSingle
+  Caption = 'Barograf [MIDPS]'
+  ClientHeight = 400
+  ClientWidth = 650
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object PaintBox1: TPaintBox
+    Left = 360
+    Top = 120
+    Width = 242
+    Height = 242
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    OnPaint = PaintBox1Paint
+  end
+  object Label1: TLabel
+    Left = 360
+    Top = 16
+    Width = 101
+    Height = 13
+    Caption = 'Current date and time'
+  end
+  object Label2: TLabel
+    Left = 360
+    Top = 88
+    Width = 230
+    Height = 20
+    Caption = 'Graphic resources of C++Builder'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Panel2: TPanel
+    Left = 216
+    Top = 120
+    Width = 81
+    Height = 240
+    Color = clActiveBorder
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 40
+    Top = 192
+    Width = 105
+    Height = 33
+    Caption = 'Start'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 40
+    Top = 248
+    Width = 105
+    Height = 33
+    Caption = 'Stop'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 40
+    Top = 304
+    Width = 105
+    Height = 33
+    Caption = 'Exit'
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+  object Edit1: TEdit
+    Left = 360
+    Top = 40
+    Width = 249
+    Height = 21
+    TabOrder = 5
+    Text = '00-00-0000 00:00:00'
+  end
+  object Panel1: TPanel
+    Left = 216
+    Top = 120
+    Width = 81
+    Height = 153
+    Caption = 'Panel1'
+    Color = clBackground
+    TabOrder = 0
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 40
+    Top = 120
+  end
+  object Timer2: TTimer
+    Interval = 150
+    OnTimer = Timer2Timer
+    Left = 120
+    Top = 120
+  end
+end
