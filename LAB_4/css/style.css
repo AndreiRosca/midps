@@ -1,0 +1,46 @@
+body {
+	background: #F5FFFA;
+}
+
+a:visited {
+	color: 	#000080;
+}
+
+a:active {
+	color: #DC143C;
+}
+
+a {
+	color: #6A5ACD;
+}
+
+#replySection, #addTopicSection {
+	display: none;
+}
+
+#categoryList, #topicList {
+	margin: 0 auto;
+}
+
+#mainPageContent {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#addTopicSection, #replySection {
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+#addTopicTable {
+	margin: 0 auto;
+}
+
+footer {
+	margin: 0 auto;
+	width: 90%;
+}
+
+#mainPageGreeting {
+	margin: 0 auto;
+}
