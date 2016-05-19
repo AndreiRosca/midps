@@ -1,0 +1,13 @@
+*.class
+.project
+.classpath
+target
+*.settings
+GitHubook-Backend-layer/target
+GitHubook-Backend-layer/.settings
+GitHubook-Backend-layer/.classpath
+GitHubook-Backend-layer/.project
+GitHubook-WebService-layer/target
+GitHubook-WebService-layer/.settings
+GitHubook-WebService-layer/.classpath
+GitHubook-WebService-layer/.project
